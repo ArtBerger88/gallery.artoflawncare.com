@@ -2,6 +2,34 @@ body {
     background-color: black;
 }
 
+.imgContainer {
+  background-color: #000000;
+  display: block;
+  padding: 20px;
+  padding-top:50px;
+}
+
+.fadeImgContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.fadeImg, .fadeImg2, .zoom {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+
+.fadeImg:hover, .fadeImg2:hover, .zoom:hover{
+  transform: scale(2);
+}
+
 footer {
     color: white;
     font-size: 15px;
